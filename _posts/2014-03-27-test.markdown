@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "New Post Test"
-date:   2014-03-27 21:18:24
+title:  "First Post"
+date:   2014-04-4 23:54:00
 categories: blog
 ---
 
-#This is a blog#
+#First Post#
+
+This is my first post on my new blog, Nothing really to say here so this is it.

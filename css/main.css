@@ -12,13 +12,6 @@
 
 html, body { height: 100%; }
 
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
@@ -34,19 +27,51 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
+body {
+  background: #ddd;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #b6b6b6;
+}
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
 .posts {
   list-style-type: none;
-  margin-bottom: 2em;
 }
 
 .posts li {
   line-height: 1.75em;
 }
-
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+.left{
+  width: 100%;
+  min-height: 100%;
+  float: left;
+}
+.sidebar{
+  box-sizing:border-box;
+  padding: 20px;
+  width: 20%;
+  float: left;
+  background-color: #eee;
+  height: 100%;
+}
+.post{
+  background: white;
+  box-sizing:border-box;
+  padding:40px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  overflow:hidden;
+  font-size: 16px;
 }
 
 /*****************************************************************************/
@@ -55,60 +80,46 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+.topper{
+  height: 50px;
+  width: 100%;
+  border-top:5px solid #2c3e50;
 }
-
-.header a {
-  font-weight: bold;
+.main{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+.header{
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: #474747;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  height: 150px;
+  line-height: 150px;
+  margin-bottom: 50px;
+}
+svg{
+  height: 100%;
+  width: 100%;
+  fill: #fff;
+  background-color: #2c3e50;
+}
+.header h1 a{
   text-decoration: none;
+  color: #eee;
 }
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
+.header h1 a span{
+  font-weight: 400;
 }
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
-
-.meta {
-  color: #aaa;
-}
-
 .footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
 }
 
 .footer .rss {

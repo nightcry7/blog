@@ -79,7 +79,8 @@ font-size:24px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   overflow:hidden;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 /*****************************************************************************/
@@ -198,4 +199,18 @@ svg{
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .left{
+    width: 100%;
+    }
+    .post{
+    border-radius: 0px;
+    }
+
 }

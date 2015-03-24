@@ -107,9 +107,10 @@ h2{
   color: #2c3e50;
 }
 h2.center{
+    font-size: 1em;
   font-weight: 300;
     text-transform: uppercase;
-    color: #e74c3c;
+    color: darkgray;
 }
 h2.center span{
   font-weight: 700;

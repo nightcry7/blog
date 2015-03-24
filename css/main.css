@@ -18,9 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #e74c3c; }
+a:hover   { color: #e74c3c; }
+a:visited { color: #C74E42; }
 
 /*****************************************************************************/
 /*
@@ -110,7 +110,8 @@ h2.center{
     font-size: 1em;
   font-weight: 300;
     text-transform: uppercase;
-    color: darkgray;
+    color: rgb(145, 145, 145);
+    margin-bottom: 50px;
 }
 h2.center span{
   font-weight: 700;

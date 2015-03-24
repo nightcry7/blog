@@ -109,9 +109,10 @@ h2{
 }
 h2.center{
   font-weight: 300;
+    text-transform: uppercase;
 }
 h2.center span{
-  font-weight: 400;
+  font-weight: 700;
 }
 p.center{
   font-weight: 400;

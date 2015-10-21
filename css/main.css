@@ -38,6 +38,13 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
+h1.title {
+    margin: 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
 h2{
   font-size: 2em;
   line-height: 2em;
@@ -126,7 +133,7 @@ font-size:24px;
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  height: 400%;
+  height: calc(100% - 100px);
   line-height: 150px;
 }
 .center{

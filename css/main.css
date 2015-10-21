@@ -89,7 +89,7 @@ font-size:24px;
     width: 40%;
     height: 100%;
     float: left;
-    background-image: url('/img/mount2.jpg');
+    background-image: url('../img/mount2.jpg');
     background-size: cover;
     box-shadow: inset 0px 0px 0px 8005px rgba(255,255,255,.8);
     -webkit-box-shadow: inset 0px 0px 0px 8005px rgba(255,255,255,.8);

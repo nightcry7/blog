@@ -123,10 +123,10 @@ font-size:24px;
 .header{
   border-radius: 100px;
   overflow: hidden;
-  width: 150px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
-  height: 150px;
+  height: 400%;
   line-height: 150px;
 }
 .center{

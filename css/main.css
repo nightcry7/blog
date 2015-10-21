@@ -49,6 +49,8 @@ h1.title {
 h2{
   font-size: 2em;
   line-height: 2em;
+    font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 .posts {
   list-style-type: none;
@@ -58,6 +60,10 @@ font-size:24px;
     text-decoration: none;
     color: #111;
 }
+.posts h2 a:hover{
+    color: #e74c3c;
+}
+
 
 .posts li {
   line-height: 1.75em;
@@ -81,15 +87,15 @@ font-size:24px;
   height: 100%;
 }
 .post{
-  background: white;
+
   box-sizing:border-box;
   padding:40px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
   overflow:hidden;
   font-size: 1rem;
     line-height: 2.5rem;
   margin-bottom: 50px;
-    border-radius: 5px;
+
     font-family: 'Lora', serif;
 }
 
@@ -134,11 +140,11 @@ font-size:24px;
   text-align: center;
   margin: 0 auto;
   height: calc(100% - 10%);
-        background-image: url('../img/mount2.jpg');
+        background-image: url('../img/for1.jpg');
     background-size: cover;
-    box-shadow: inset 0px 0px 0px 8005px rgba(255,255,255,.8);
-    -webkit-box-shadow: inset 0px 0px 0px 8005px rgba(255,255,255,.8);
-    -moz-box-shadow: inset 0px 0px 0px 8005px rgba(255,255,255,.8);
+    box-shadow: inset 0px 0px 0px 8005px rgba(70,62,62,.8);
+    -webkit-box-shadow: inset 0px 0px 0px 8005px rgba(70,62,62,.8);
+    -moz-box-shadow: inset 0px 0px 0px 8005px rgba(70,62,62,.8);
         padding: 5%;
     box-sizing: border-box;
 }

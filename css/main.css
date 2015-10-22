@@ -47,6 +47,9 @@ h1.title {
     text-align: left;
     color:#fff;
 }
+h1.title:first-child {
+  margin-top: 50%;
+}
 h2{
   font-size: 2em;
   line-height: 2em;
@@ -268,5 +271,15 @@ svg{
         max-width:90%;
         margin: 0 auto;
     }
+
+}
+
+
+@media (max-width: 455px) {
+    h1.title {
+
+  font-size: 4rem;
+
+}
 
 }

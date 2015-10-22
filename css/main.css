@@ -269,6 +269,10 @@ svg{
         max-width:90%;
         margin: 0 auto;
     }
+       h1.title:first-child{
+        margin-top: 50%;
+
+    }
 
 }
 
@@ -279,5 +283,9 @@ svg{
   font-size: 4rem;
 
 }
+    h1.title:first-child{
+        margin-top: 50%;
+
+    }
 
 }

@@ -90,7 +90,7 @@ font-size:24px;
 .post{
 
   box-sizing:border-box;
-  padding:40px;
+  padding:5%;
 
   overflow:hidden;
   font-size: 1rem;
@@ -98,6 +98,7 @@ font-size:24px;
   margin-bottom: 50px;
 
     font-family: 'Lora', serif;
+        max-width: 1184px;
 }
 
 #left{
@@ -259,6 +260,7 @@ svg{
     }
     .post{
     border-radius: 0px;
+        max-width:90%;
     }
 
 }

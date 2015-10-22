@@ -87,18 +87,23 @@ font-size:24px;
   background-color: #eee;
   height: 100%;
 }
+
+.main.posthead{
+padding:5%;
+ max-width: 1184px;
+}
+
 .post{
 
   box-sizing:border-box;
-  padding:5%;
 
   overflow:hidden;
   font-size: 1.2rem;
     line-height: 2.8rem;
-  margin-bottom: 50px;
+/*  margin-bottom: 50px;*/
 
     font-family: 'Lora', serif;
-        max-width: 1184px;
+
 }
 
 #left{

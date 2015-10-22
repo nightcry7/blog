@@ -46,9 +46,7 @@ h1.title {
   font-weight: 400;
     text-align: left;
     color:#fff;
-}
-h1.title:first-child {
-  margin-top: 50%;
+        transform: translateY(50%);
 }
 h2{
   font-size: 2em;

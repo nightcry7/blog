@@ -79,6 +79,7 @@ font-size:24px;
   width: 90%;
   min-height: 100%;
   margin: 0 auto;
+    max-width: 696px;
 }
 .sidebar{
   box-sizing:border-box;

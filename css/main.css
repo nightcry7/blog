@@ -6,16 +6,33 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
 
+
+/*CLEAR FIX*/
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
 .post {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.64;
     margin-bottom: 40px;
     color: #6e6e6e;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .post h2 {
        font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
     line-height: 1.64;
     margin-bottom: 4px;
 }

@@ -53,7 +53,7 @@ h1.title {
 }
 h2{
   font-size: 2em;
-  line-height: 1.5;
+  line-height: 1.63;
     font-family: 'Merriweather', serif;
   font-weight: 700;
 }
@@ -71,7 +71,7 @@ font-size:24px;
 
 
 .posts li {
-  line-height: 1.5;
+  line-height: 1.63;
 }
 .posts span {
   color: #aaa;
@@ -104,7 +104,7 @@ padding:5%;
 
   overflow:hidden;
   font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.63;
   margin-bottom: 50px;
 
    font-family: 'Roboto', sans-serif;

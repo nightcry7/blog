@@ -6,19 +6,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
 
-.post{
+.post {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.64;
+    margin-bottom: 40px;
 }
 
-.post h2{
+.post h2 {
     font-family: 'Merriweather', serif;
     line-height: 1.64;
+    margin-bottom: 4px;
 }
 
 .posts{
     width: 100%;
     max-width: 696px;
         margin: 0 auto;
+}
+.headerTextBlock {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.heroImage p {
+    font: 300 2.2em 'Poppins', sans-serif;
+    line-height: 1.63;
 }

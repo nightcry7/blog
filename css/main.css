@@ -27,7 +27,7 @@
     width: 30%;
     float: left;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 40px;
     word-wrap: break-word;
     background: #fff;
     margin: 1.6%;
@@ -37,10 +37,12 @@
 
 
 .post h2 {
-       font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.2em;
     line-height: 1.64;
     margin-bottom: 4px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .post h2 a {

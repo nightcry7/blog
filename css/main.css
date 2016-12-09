@@ -11,12 +11,18 @@
     font-size: 18px;
     line-height: 1.64;
     margin-bottom: 40px;
+    color: #6e6e6e;
 }
 
 .post h2 {
-    font-family: 'Merriweather', serif;
+       font-family: 'Roboto', sans-serif;
     line-height: 1.64;
     margin-bottom: 4px;
+}
+
+.post h2 a {
+    text-decoration: none;
+    color: #343434;
 }
 
 .posts{
@@ -32,4 +38,7 @@
 .heroImage p {
     font: 300 2.2em 'Poppins', sans-serif;
     line-height: 1.63;
+}
+.container_content {
+    background: #f5f5f5;
 }

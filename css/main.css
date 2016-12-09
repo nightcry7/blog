@@ -28,6 +28,7 @@
     float: left;
     box-sizing: border-box;
     padding: 20px;
+    background: #fff;
 }
 
 .post h2 {
@@ -44,7 +45,6 @@
 
 .posts{
     width: 100%;
-    max-width: 696px;
         margin: 0 auto;
 }
 .headerTextBlock {

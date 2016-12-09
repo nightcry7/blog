@@ -16,3 +16,9 @@
     font-family: 'Merriweather', serif;
     line-height: 1.64;
 }
+
+.posts{
+    width: 100%;
+    max-width: 696px;
+        margin: 0 auto;
+}
